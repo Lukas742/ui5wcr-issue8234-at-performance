@@ -1,0 +1,16 @@
+.fullHeight {
+  height: 100%;
+}
+
+.fcl {
+  height: 100vh;
+}
+
+.detailsContainer {
+  gap: 0.5rem;
+}
+
+.detailsHeader {
+  justify-content: space-between;
+  align-items: center;
+}

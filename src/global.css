@@ -1,0 +1,11 @@
+/* Global UI5 overrides for disabled controls
+   These rules are applied globally for consumers of this library.
+   They make disabled UI5 inputs selectable/clickable per project needs.
+*/
+
+ui5-input::part(input):disabled,
+ui5-combobox:disabled {
+  cursor: var(--ui5-disabled-cursor, text) !important;
+  pointer-events: var(--ui5-disabled-pointer, auto) !important;
+  user-select: var(--ui5-disabled-select, text) !important;
+}
