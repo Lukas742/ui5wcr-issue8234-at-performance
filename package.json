@@ -12,15 +12,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@ui5/webcomponents": "2.19.2",
-    "@ui5/webcomponents-base": "2.19.2",
-    "@ui5/webcomponents-fiori": "2.19.2",
-    "@ui5/webcomponents-icons": "2.19.2",
-    "@ui5/webcomponents-react": "2.19.0",
-    "@ui5/webcomponents-react-compat": "2.19.0",
+    "@ui5/webcomponents": "2.20.2",
+    "@ui5/webcomponents-base": "2.20.2",
+    "@ui5/webcomponents-fiori": "2.20.2",
+    "@ui5/webcomponents-icons": "2.20.2",
+    "@ui5/webcomponents-react": "0.0.0-0ea4f964fb5",
+    "@ui5/webcomponents-react-compat": "0.0.0-0ea4f964fb5",
+    "@ui5/webcomponents-react-base": "0.0.0-0ea4f964fb5",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
+  "overrides": { "@ui5/webcomponents-react": "0.0.0-0ea4f964fb5" },
   "devDependencies": {
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
