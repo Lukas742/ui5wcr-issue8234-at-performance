@@ -7,9 +7,9 @@ import AnalyticalSample from "./AnalyticalSample.tsx";
 import { ThemeProvider } from "@ui5/webcomponents-react/ThemeProvider";
 
 createRoot(document.getElementById("root")!).render(
-  // <StrictMode>
-  <ThemeProvider>
-    <AnalyticalSample />
-  </ThemeProvider>,
-  // </StrictMode>
+  <StrictMode>
+    <ThemeProvider>
+      <AnalyticalSample />
+    </ThemeProvider>
+  </StrictMode>,
 );
