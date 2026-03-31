@@ -1,5 +1,7 @@
 .fullHeight {
   height: 100%;
+  /*temporary workaround to enable consistent manual resizing. This will be fixed in the AnalyticalTable */
+  overflow: hidden;
 }
 
 .fcl {

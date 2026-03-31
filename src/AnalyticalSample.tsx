@@ -100,7 +100,10 @@ const MidColumn = memo(function MidColumn({
 }) {
   return (
     <div className={styles.fullHeight} slot="midColumn">
-      <FlexBox direction={FlexBoxDirection.Column} className={styles.detailsContainer}>
+      <FlexBox
+        direction={FlexBoxDirection.Column}
+        className={styles.detailsContainer}
+      >
         <FlexBox className={styles.detailsHeader}>
           <Title level="H4">Details</Title>
           <button type="button" onClick={onClose}>
